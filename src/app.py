@@ -434,7 +434,7 @@ def load_rag_system():
     """Load the RAG system with caching"""
     current_dir = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(current_dir, "..", "data")
-    json_path = os.path.join(data_dir, "bhagavadgita_Chapter_18.json")
+    json_path = os.path.join(data_dir, "bhagavadgita_Chapter_2.json")
     return BhagavadGitaRAG(json_path)
 
 # Initialize session state for query

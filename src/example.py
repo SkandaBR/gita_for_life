@@ -38,7 +38,7 @@ def main():
     # Use the project's data directory; do not change functional behavior
     DATA_DIR = os.path.join(PROJECT_ROOT, "data")
     # Path to the sample JSON file
-    json_path = os.path.join(DATA_DIR, "bhagavadgita_Chapter_18.json")
+    json_path = os.path.join(DATA_DIR, "bhagavadgita_Chapter_2.json")
     
     print("Initializing Bhagavad Gita RAG system...")
     # Initialize the RAG system
